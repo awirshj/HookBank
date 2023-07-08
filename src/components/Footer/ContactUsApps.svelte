@@ -12,9 +12,9 @@
   img {
     cursor: pointer;
     transition: all 0.3s ease-in;
-    &:hover {
-      transform: translateY(-3px);
-    }
+  }
+  img:hover {
+    transform: translateY(-3px);
   }
   /* Component styles */
 </style>
