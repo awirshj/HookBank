@@ -1,4 +1,6 @@
 <script>
+  import { people01, people02, people03 } from "../../assets";
+
   // Component logic
   import CardTestimonial from "./CardTestimonial.svelte";
   import ClientsLogo from "./ClientsLogo.svelte";
@@ -7,19 +9,19 @@
       text: "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
       author: "Herman Jensen",
       position: "Founder & Leader",
-      imgSrc: "./src/assets/people01.png",
+      imgSrc: people01,
     },
     {
       text: "Money makes your life easier. If you're lucky to have it, you're lucky.",
       author: "Steve Mark",
       position: "Founder & Leader",
-      imgSrc: "./src/assets/people02.png",
+      imgSrc: people02,
     },
     {
       text: "It is usually people in the money business, finance, and international trade that are really rich.",
       author: "Kenn Gallagher",
       position: "Founder & Leader",
-      imgSrc: "./src/assets/people03.png",
+      imgSrc: people03,
     },
   ];
 </script>

@@ -1,11 +1,14 @@
 <script>
+  // imgase
+  import { apple, bill, google } from "../../../assets";
+
   // Component logic
 </script>
 
 <!-- Component markup -->
 <div class="flex flex-col-reverse items-center gap-16 lg:flex-row lg:gap-8">
   <div class="md:w-2/3 lg:w-1/2">
-    <img src="./src/assets/bill.png" alt="bill " />
+    <img src={bill} alt="bill " />
   </div>
   <div
     class="flex flex-col items-center gap-10 lg:w-1/2 lg:items-start lg:gap-6"
@@ -24,12 +27,12 @@
 
     <div class="items-cente flex flex-row gap-8 lg:gap-4">
       <img
-        src="./src/assets/google.svg"
+        src={google}
         alt="google"
         class="cursor-pointer rounded-lg border-[1px] border-solid border-gray-900"
       />
       <img
-        src="./src/assets/apple.svg"
+        src={apple}
         alt="apple"
         class="cursor-pointer rounded-lg border-[1px] border-solid border-gray-900"
       />

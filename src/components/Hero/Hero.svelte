@@ -1,4 +1,5 @@
 <script>
+  import { arrowUp, discount, robot } from "../../assets";
   import Usage from "./Usage.svelte";
 </script>
 
@@ -16,7 +17,7 @@
             class=" mb-10 flex w-fit items-center gap-2 rounded-xl px-6 py-2 pl-1"
             style="  background:linear-gradient(125.17deg,#272727,#11101d);"
           >
-            <img src="./src/assets/Discount.svg" alt="discount" />
+            <img src="{discount}" alt="discount" />
             <p class="text-[18px] font-semibold italic text-textColor">
               <span
                 class="border-spacing-1 border-b-2 border-gray-700 px-0.5 text-textColorLighter"
@@ -53,7 +54,7 @@
                 <div
                   class=" flex flex-row-reverse items-center justify-between gap-0.5"
                 >
-                  <div><img src="./src/assets/arrow-up.svg" alt="" /></div>
+                  <div><img src="{arrowUp}" alt="" /></div>
 
                   <p
                     class="text-[18px] font-bold tracking-wide text-textColorLighter"
@@ -89,7 +90,7 @@
         <div class=" relative my-10 max-w-2xl flex-1 self-end md:my-0">
           <img
             class=" w-full self-end"
-            src="./src/assets/robot.png"
+            src="{robot}"
             alt="robot hand"
           />
         </div>

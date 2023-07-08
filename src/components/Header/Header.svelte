@@ -1,9 +1,8 @@
 <script>
-  import { logoSrc } from "../../store";
   import { onMount } from "svelte";
+  import { logo } from "../../assets";
   let navMenuClass = "hidden";
   let navMenuBtnClass = "";
-  let a = false;
 
   function updateScreenWidth() {
     if (window.innerWidth < 768 || navMenuBtnClass === "") return;
@@ -46,7 +45,6 @@
 
     // event handler for sticky nav  with interSectionObserver
     const header = document.getElementById("header");
-    const secHome = document.getElementById("home");
     const stickyNavObs = new IntersectionObserver(
       (entries, observer) => {
         const [entry] = entries;
@@ -77,7 +75,7 @@
       border-opacity-40 px-10 py-4 md:max-w-full md:px-16"
 >
   <div class="w-1/4 md:w-[160px]">
-    <img src={$logoSrc} alt="logo" class="h-auto w-full" />
+    <img src={logo} alt="logo" class="h-auto w-full" />
   </div>
 
   <div>

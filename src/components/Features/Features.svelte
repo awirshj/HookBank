@@ -1,5 +1,6 @@
 <script>
-  import GetStartedBtn from "../BTNs/GetStartedBtn.svelte";
+  import { send, shield, star } from "../../assets";
+import GetStartedBtn from "../BTNs/GetStartedBtn.svelte";
 </script>
 
 <section id="feature" class="pt-24">
@@ -30,7 +31,7 @@
         <div
           class="z-0 h-fit w-fit rounded-full border-2 border-solid border-gray-800 bg-gray-900 px-4 py-4"
         >
-          <img class="z-10" src="./src/assets/star.svg" alt="start" />
+          <img class="z-10" src="{star}" alt="start" />
         </div>
 
         <div class="flex flex-col items-center gap-4 md:items-start md:gap-0">
@@ -47,7 +48,7 @@
         <div
           class="z-0 h-fit w-fit rounded-full border-2 border-solid border-gray-800 bg-gray-900 px-4 py-4"
         >
-          <img class="z-10" src="./src/assets/shield.svg" alt="shield" />
+          <img class="z-10" src="{shield}" alt="shield" />
         </div>
 
         <div class="flex flex-col items-center gap-4 md:items-start md:gap-0">
@@ -66,7 +67,7 @@
         <div
           class="z-0 h-fit w-fit rounded-full border-2 border-solid border-gray-800 bg-gray-900 px-4 py-4"
         >
-          <img class="z-10" src="./src/assets/send.svg" alt="send" />
+          <img class="z-10" src="{send}" alt="send" />
         </div>
 
         <div class="flex flex-col items-center gap-4 md:items-start md:gap-0">

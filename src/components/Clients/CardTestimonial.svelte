@@ -1,7 +1,8 @@
 <script>
+  import { quotes } from "../../assets";
+
   export let data;
   const { author, text, position, imgSrc } = data;
-  const quotes = "./src/assets/quotes.svg";
   // Component logic
 </script>
 

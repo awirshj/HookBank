@@ -1,4 +1,7 @@
 <script>
+  import { card } from "../../assets";
+  // import imgase
+
   // Component logic
 
   import GetStartedBtn from "../BTNs/GetStartedBtn.svelte";
@@ -28,7 +31,7 @@
       <GetStartedBtn />
     </div>
     <div class="my-16 md:w-2/3 lg:my-0 lg:w-1/2">
-      <img src="./src/assets/card.png" alt="card" />
+      <img src={card} alt="card" />
     </div>
   </div>
 </section>

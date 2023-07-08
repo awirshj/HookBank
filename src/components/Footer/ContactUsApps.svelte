@@ -1,12 +1,14 @@
 <script>
+  import { facebook, instagram, linkedin, twitter } from "../../assets";
+
   // Component logic
 </script>
 
 <!-- Component markup -->
-<img src="./src/assets/instagram.svg" alt="instagram" />
-<img src="./src/assets/linkedin.svg" alt="linkedin" />
-<img src="./src/assets/twitter.svg" alt="twitter" />
-<img src="./src/assets/facebook.svg" alt="facebook" />
+<img src={instagram} alt="instagram" />
+<img src={linkedin} alt="linkedin" />
+<img src={twitter} alt="twitter" />
+<img src={facebook} alt="facebook" />
 
 <style>
   img {

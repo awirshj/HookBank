@@ -1,4 +1,6 @@
 <script>
+  import { logo } from "../../assets";
+
   // Component logic
   import { logoSrc, footerLinks } from "../../store";
 
@@ -15,7 +17,7 @@
   >
     <div class="flex flex-col items-center gap-4 md:items-start">
       <a href="#top" class=" inline-block w-1/4 md:w-[200px]">
-        <img src={$logoSrc} alt="logo" class="h-auto w-full" />
+        <img src={logo} alt="logo" class="h-auto w-full" />
       </a>
       <p
         class="w-1/2 text-center text-base font-medium tracking-wide text-textColor lg:text-left"
